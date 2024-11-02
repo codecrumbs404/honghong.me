@@ -76,8 +76,8 @@ const config = {
 }
 
 export default withSentryConfig(withBundleAnalyzer(config), {
-  org: 'tszhong0411',
-  project: 'honghongme',
+  org: 'codecrumbs404',
+  project: 'javascript-nextjs',
   silent: !process.env.CI,
   authToken: process.env.SENTRY_AUTH_TOKEN,
   widenClientFileUpload: true,
